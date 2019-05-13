@@ -11,9 +11,9 @@
             "loggingOptions": "",
             "registryCredentials": {
               "my_acr": {
-                "username": "chaoyitestdevops042801acr", 
-                "password": "U4nHU0GYARWtl1BCDXcqTyJc/qROfipE", 
-                "address": "chaoyitestdevops042801acr.azurecr.io"
+                "username": "chaoyitest", 
+                "password": "8tdF98mVuihEW/uiCZl63gSRjaWE9fMc", 
+                "address": "chaoyitest.azurecr.io"
               }
             }
           }
