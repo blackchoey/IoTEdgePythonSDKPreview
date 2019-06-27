@@ -2,7 +2,7 @@
     "python.pythonPath": "C:\\Python36\\python.exe",
     "cSpell.enabled": false,
     "azure-iot-edge.defaultPlatform": {
-        "platform": "windows-amd64",
+        "platform": "amd64",
         "alias": null
     }
 }

@@ -10,11 +10,6 @@
             "minDockerVersion": "v1.25",
             "loggingOptions": "",
             "registryCredentials": {
-              "my_acr": {
-                "username": "chaoyitest", 
-                "password": "8tdF98mVuihEW/uiCZl63gSRjaWE9fMc", 
-                "address": "chaoyitest.azurecr.io"
-              }
             }
           }
         },
@@ -23,7 +18,8 @@
             "type": "docker",
             "settings": {
               "image": "mcr.microsoft.com/azureiotedge-agent:1.0",
-              "createOptions": {}
+              "createOptions": {
+              }
             }
           },
           "edgeHub": {

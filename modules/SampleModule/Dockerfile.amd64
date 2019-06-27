@@ -7,10 +7,8 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/* 
 
 RUN pip3 install --upgrade pip
-COPY requirements.txt ./
-RUN pip install -r requirements.txt
-
 COPY . .
+RUN pip install -e ./azure-iot-sdk-python-preview/azure-iot-device
 
 RUN useradd -ms /bin/bash moduleuser
 USER moduleuser

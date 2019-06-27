@@ -2,7 +2,7 @@
   "$schema-version": "0.0.1",
   "description": "",
   "image": {
-    "repository": "chaoyitest.azurecr.io/samplemodule",
+    "repository": "localhost:5000/samplemodule",
     "tag": {
       "version": "0.0.10",
       "platforms": {
