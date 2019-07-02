@@ -2,9 +2,7 @@ FROM python:3.7.3-windowsservercore-1809
 
 WORKDIR /app
 
-COPY requirements.txt ./
-RUN pip install -r requirements.txt
-
 COPY . .
+RUN pip install -e ./azure-iot-sdk-python-preview/azure-iot-device
 
 CMD [ "python", "-u", "./main.py" ]

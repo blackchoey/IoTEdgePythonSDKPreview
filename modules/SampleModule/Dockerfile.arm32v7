@@ -8,10 +8,8 @@ RUN apt-get update && \
 
 RUN pip3 install --upgrade pip 
 RUN pip install --upgrade setuptools 
-COPY requirements.txt ./
-RUN pip install -r requirements.txt
-
 COPY . .
+RUN pip install -e ./azure-iot-sdk-python-preview/azure-iot-device
 
 RUN useradd -ms /bin/bash moduleuser
 USER moduleuser
