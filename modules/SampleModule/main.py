@@ -9,12 +9,9 @@ import os
 import sys
 import asyncio
 from six.moves import input
-import logging
 import threading
 from azure.iot.device.aio import IoTHubModuleClient
 from azure.iot.device import auth
-
-logging.basicConfig(level=logging.DEBUG)
 
 # Choose HTTP, AMQP or MQTT as transport protocol.  Currently only MQTT is supported.
 PROTOCOL = "mqtt"
